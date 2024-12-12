@@ -1,0 +1,112 @@
+*{
+    
+    color:white;
+}
+body{
+    background-color: #A3CEF1;
+    height: 1240px;
+}
+
+
+form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_container
+{
+    
+    /* margin-top: 120px; */
+    border-radius: 1rem;
+    font-size: 30px;
+    width: 1200px;
+    height: 1440px;
+    background-color: #0e0260;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.content
+{
+    margin-left: 60px;
+    font-size:30px;
+}
+.in_content{
+    font-size:2.4rem;
+    width: 1050px;
+    border: none;
+    border-radius:0.4rem;
+    color: black;
+    padding: 10px;
+}
+input:disabled {
+    background-color: #c0b8b8; /* Custom background color for disabled input */
+}
+
+.in_content:focus::placeholder
+{
+    color:white;
+}
+
+.in_content:focus{
+    outline: none;
+    border: none;
+   
+}
+
+.btn{
+    font-size: 40px;
+    width: 250px;
+    height:70px;
+    border: none;
+    border-radius:0.5rem;
+    font-weight: 550;
+    background-color: #449DD1;
+}
+
+.btn:hover{
+    font-size: 50px;
+    width: 300px;
+    height:80px;
+    font-weight: 700;
+    background-color: #377ba0;
+}
+
+.gender
+{
+    width:50px;
+    height: 30px;
+    width:auto;
+    color: black;
+}
+
+.op
+{
+    color: black;
+}
+
+
+
+  select[name="Seat"] {
+    width: 1050px;
+    padding: 10px;
+    
+    font-size:2.4rem;
+    width: 1065px;
+    border: none;
+    border-radius:0.4rem;
+    color: black;
+    background-color: rgb(255, 255, 255);
+  }
+.opt
+{
+    color: black;
+    background-color: antiquewhite;
+}
+ 
+
+

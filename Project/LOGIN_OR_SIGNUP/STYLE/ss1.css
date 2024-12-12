@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    color:white;
+}
+body{
+    background-color: #A3CEF1;
+}
+
+
+form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_container
+{
+    margin-top: 180px;
+    border-radius: 1rem;
+    font-size: 30px;
+    width: 1100px;
+    height: 1220px;
+    background-color: #150578;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.content
+{
+    margin-left:80px;
+    font-size:2.5rem;
+}
+.in_content{
+    font-size:2.3rem;
+    width: 950px;
+    border: none;
+    border-radius:0.4rem;
+    color: black;
+}
+
+.in_content:focus::placeholder
+{
+    color:white;
+}
+
+.in_content:focus{
+    outline: none;
+    border: none;
+   
+}
+
+.btn{
+    font-size: 30px;
+    width: 200px;
+    height:60px;
+    border: none;
+    border-radius:0.5rem;
+    font-weight: 550;
+    background-color: #449DD1;
+    margin-top: 2rem;
+}
+
+.btn:hover{
+    font-size: 45px;
+    width: 230px;
+    height:65px;
+    font-weight: 700;
+}
+
+/* Style for select element */
+.gender {
+    width: 200px; /* Set the width of the select element */
+    height: 60px; /* Set the height of the select element */
+    font-size: 30px; /* Set the font size */
+    padding: 10px; /* Add padding to the select element */
+    border: 2px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add border radius to create rounded corners */
+    background-color: #fff; /* Set background color */
+    color: #333; /* Set text color */
+}
+
+/* Style for option elements */
+.op {
+    font-size: 2.3rem; /* Set the font size */
+    padding: 7px; 
+    color: black;/* Add padding to the options */
+}
+
+/* Hover effect for options */
+
